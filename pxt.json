@@ -3,12 +3,15 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "big-daddy-gamers": "github:geoff101/big-daddy-gamers#c21656de377080ee2036a3b554f49ce6ee6e617a"
     },
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
