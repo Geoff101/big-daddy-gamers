@@ -70,7 +70,7 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
         . . . 4 e e f f f f f f e . . . 
         . . . . . . . . . f f f . . . . 
         `],
-    200,
+    110,
     true
     )
 })
@@ -146,7 +146,7 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
         . . f f f f f f f f f f . . . . 
         . . . f f f . . . f f . . . . . 
         `],
-    200,
+    110,
     true
     )
 })
@@ -222,7 +222,7 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
         . . . . . . f f f f f f . . . . 
         . . . . . . . f f f . . . . . . 
         `],
-    200,
+    110,
     true
     )
 })
@@ -298,7 +298,7 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
         . . . . . f f f f f f f . . . . 
         . . . . . . . . . f f f . . . . 
         `],
-    200,
+    110,
     true
     )
 })
