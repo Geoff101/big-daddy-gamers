@@ -4,7 +4,11 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "big-daddy-gamers": "github:geoff101/big-daddy-gamers#c21656de377080ee2036a3b554f49ce6ee6e617a"
+        "big-daddy-gamers": "github:geoff101/big-daddy-gamers#c21656de377080ee2036a3b554f49ce6ee6e617a",
+        "controller": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.11.0",
+        "storyboard": "*"
     },
     "files": [
         "README.md",

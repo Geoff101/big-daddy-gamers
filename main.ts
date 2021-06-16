@@ -1,3 +1,6 @@
+namespace StatusBarKind {
+    export const herohealth = StatusBarKind.create()
+}
 /**
  * 0up
  * 
@@ -722,4 +725,9 @@ game.onUpdate(function () {
     if (!(moving)) {
         animation.stopAnimation(animation.AnimationTypes.All, hero)
     }
+})
+forever(function () {
+    music.setVolume(15)
+    music.playMelody("A C F D E C C C ", 100)
+    music.playMelody("C5 F A G E F D C ", 100)
 })
